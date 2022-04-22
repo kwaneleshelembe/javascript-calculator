@@ -1,0 +1,71 @@
+body {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0em;
+    margin: 0em;
+}
+
+#calculator {
+    border: 3px solid darkgrey;
+    border-radius: 1em;
+    height: 100%;
+    padding: 1em;
+    margin: 5em auto;
+    background-color: darkslategrey;
+    box-shadow: 5px 5px 6px black;
+    max-width: 30em;
+    cursor: ;
+}
+
+#num-head {
+    background-color: #aaa;
+    color: #000;
+    border: 4px solid grey;
+    border-radius: 0.2em;
+    text-align: right;
+    font-family: Microsoft JhengHei;
+    font-size: 2em;
+    padding: 0em 1em;
+    height: 2.5em;
+    line-height: 2em;
+    margin: 0.8em 0em;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#num-head::-webkit-scrollbar {
+    opacity: 1;
+}
+
+#num-head::-webkit-scrollbar-thumb {
+    background-color: rgb(34, 37, 41);
+    border-radius: 1em;
+}
+
+#calc-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn {
+    font-size: 1.7em;
+    height: 2em;
+    margin: 0.5em 0.2em;
+    border-radius: 0.5em;
+    border: 3px solid darkgrey;
+    transition: 1s;
+    background-color: white;
+}
+
+#dot {
+    font-weight: bolder;
+}
+
+.operation {
+    background-color: rgb(34, 37, 41);
+    color: #fff;
+}
+
+.num-btn {
+    background-color: grey;
+    color: #fff;
+}
